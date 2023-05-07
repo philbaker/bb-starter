@@ -1,1 +1,4 @@
-{}
+{:paths ["src"]
+ :tasks {:requires ([bb-starter.core :as core])
+         hello (println "Hello from bb.")
+         intro (core/intro)}}
